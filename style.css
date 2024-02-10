@@ -1,0 +1,390 @@
+/* CSS code starts here */
+.linktree-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.linktree-header,
+.linktree-footer {
+  text-align: center;
+  padding: 20px 0;
+}
+.linktree-footer {
+  margin-top: 20px;
+  border-top: 1px solid #ced4da;
+}
+.linktree-list {
+  list-style: none;
+  padding: 0;
+}
+.linktree-list li {
+  margin-bottom: 10px;
+}
+.linktree-list li a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.linktree-list li a:hover {
+  background-color: #0056b3;
+}
+#hero {
+  width: 100%;
+  height: 95vh;
+  background: url("/assets/img/hero-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+/* style.css */
+.card-img {
+  width: 100%; /* Lebar gambar 100% dari container */
+  height: 200px; /* Tinggi gambar tetap 200px */
+  object-fit: cover; /* Gambar diatur untuk tetap proporsional dan menutupi area yang tersedia */
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Sesuaikan dengan kebutuhan Anda, 100vh adalah 100% tinggi viewport */
+}
+
+.page-header h1 {
+  text-align: center;
+  color: white; /* Sesuaikan warna teks dengan kebutuhan Anda */
+}
+
+.judul h2 {
+  text-align: center;
+  color: black;
+}
+/* style.css */
+
+.kenalan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  height: 100%; /* Ensure it takes the full height of the parent */
+}
+
+.kenalan button {
+  background-color: #3190ff;
+  color: white;
+  padding: 10px 55px 10px 55px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 50px; /* Add rounded corners */
+  /* Add transition for smooth hover effect */
+}
+
+.kenalan button:hover {
+  background-color: #266fc1; /* Change color on hover */
+}
+.ok {
+  width: 100%;
+}
+.teks p {
+  font-size: 22px;
+}
+/* style.css */
+/* style.css */
+
+.teks {
+  display: flex;
+  align-items: center;
+  width: 130%;
+  height: 100%; /* Ensure full height of parent container */
+}
+
+.judul-ok {
+  margin-top: -500px;
+}
+.judul-ok1 {
+  margin-top: -190px;
+}
+
+.teks1 {
+  text-align: center; /* Mengatur teks menjadi terpusat */
+  margin: auto; /* Memberi margin otomatis untuk mengatur item menjadi terpusat secara horizontal */
+  max-width: 600px; /* Opsional: memberi batas maksimum lebar */
+}
+.gambarss {
+  margin-top: 0px;
+}
+.jam-respon {
+  display: flex; /* Menggunakan flexbox */
+  align-items: center; /* Memusatkan vertikal */
+}
+
+.rectangle {
+  background-color: #007bff;
+  width: 13px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px; /* Menambahkan margin agar teks terpisah */
+}
+.img-fit {
+  object-fit: cover; /* Menyamakan rasio aspek dan mengisi area secara proporsional */
+}
+.card-title {
+  text-decoration: none;
+}
+.card {
+  width: 100%; /* Mengatur lebar card menjadi 100% dari parentnya */
+  max-width: 500px; /* Mengatur lebar maksimum card */
+}
+
+/* Style for hover state */
+
+@media (max-width: 768px) {
+  .judul-ok1 {
+    margin-top: 100px;
+  }
+
+  .gambarss {
+    margin-top: 260px;
+  }
+  .footer-content {
+    max-width: 980px;
+    /* Lebar maksimum konten footer */
+    margin-right: 60px; /* Mengatur konten footer ke tengah */
+  }
+
+  .d-flex.justify-content-center {
+    text-align: center; /* Mengatur teks menjadi terpusat saat tampilan responsif */
+  }
+  .teks {
+    width: 100%; /* Set width to 100% on screens smaller than 768px (mobile devices) */
+  }
+  .teks p {
+    font-size: 16px;
+  }
+  .judul-ok {
+    margin-top: -100px;
+  }
+  .judul-ok1 {
+    margin-top: -50px;
+  }
+  .misi-container {
+    margin-top: 20px;
+  }
+  .navbar-brand h5 {
+    font-size: 16px; /* Ukuran teks lebih kecil untuk layar handphone */
+  }
+  .gambar img {
+    width: 100%; /* Mengatur lebar gambar menjadi 100% untuk responsif */
+    display: block; /* Membuat gambar menjadi blok, sehingga dapat diatur margin */
+    margin-left: auto; /* Menempatkan gambar di tengah horizontal */
+    margin-right: auto; /* Menempatkan gambar di tengah horizontal */
+  }
+  .osim {
+    padding-top: 130px;
+  }
+}
+
+.osim {
+  margin-top: 530px;
+  max-width: 700px;
+}
+.card-margin {
+  margin-top: -15px;
+}
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+.gambar {
+  display: flex;
+  justify-content: end;
+}
+
+.gambar img {
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #007bff; /* Warna biru */
+  color: #fff; /* Warna teks putih */
+  padding: 20px 0; /* Padding atas dan bawah 20px, padding kiri dan kanan 0 */
+  text-align: center; /* Teks rata tengah */
+}
+
+.footer-content {
+  max-width: 960px; /* Lebar maksimum konten footer */
+  margin-left: 60px; /* Mengatur konten footer ke tengah */
+}
+
+.footer-content h3 {
+  margin-bottom: 10px; /* Margin bawah 10px untuk judul */
+}
+
+.footer-content p {
+  margin-bottom: 5px; /* Margin bawah 5px untuk paragraf */
+}
+
+.test {
+  top: 0;
+  position: absolute;
+}
+
+.hello {
+  opacity: 1 !important;
+}
+.full {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.full .content {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  height: 100%;
+  width: 100%;
+  display: grid;
+}
+.full .content img {
+  left: 50%;
+  transform: translate3d(0, 0, 0);
+  animation: zoomin 1s ease;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+.byebye {
+  opacity: 0;
+}
+.byebye:hover {
+  transform: scale(0.2) !important;
+}
+.gallery {
+  display: grid;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 8px;
+}
+.gallery img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 16px #333;
+  transition: all 1.5s ease;
+}
+.gallery img:hover {
+  box-shadow: 0 0 32px #333;
+}
+.gallery .content {
+  padding: 4px;
+}
+.gallery .gallery-item {
+  transition: grid-row-start 300ms linear;
+  transition: transform 300ms ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.gallery .gallery-item:hover {
+  transform: scale(1.025);
+}
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  }
+}
+@media (max-width: 400px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+  }
+}
+@-moz-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@-o-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+
+.margin-atas {
+  margin-top: 120px;
+}
