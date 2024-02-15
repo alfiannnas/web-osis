@@ -15,7 +15,7 @@ $school = "assets/img/school.svg";
 ?>
 <?php
 // Koneksi ke database
-$koneksi = mysqli_connect("localhost", "root", "", "db_osis");
+$koneksi = mysqli_connect("localhost", "resq1481_osis", "kodokjakarta123@", "resq1481_osis");
 
 // Cek koneksi
 if (mysqli_connect_errno()) {
@@ -45,7 +45,7 @@ $result = mysqli_query($koneksi, $query);
   <nav class="navbar navbar-expand-lg bg-primary">
   <div class="container-fluid" style="width: 1500px;">
     <!-- Logo di sebelah kiri -->
-    <a href="home.php" class="navbar-brand text-light">
+    <a href="index.php" class="navbar-brand text-light">
       <h5>
         <img src="<?php echo $logoBrand?>" alt="OSIM MAS MUALLIMIN Logo" height="auto" width="80vw" class="d-inline-block align-center">  
         OSIM MAS MUALLIMIN
@@ -88,15 +88,12 @@ $result = mysqli_query($koneksi, $query);
 
 <div id="hero1" class="hero-container">
   <div class="container">
-    <div class="hero-content">
-      <div class="d-flex justify-content-center align-items-center flex-column" style="height: 100vh;">
-        <h1 class="text-light">Pusat Informasi</h1>
-        <h3 class="text-light">Cari informasi terbaru seputar OSIM MAS MUALLIMIN UNIVA pada halaman ini.</h3>
-      </div>
+    <div class="hero-content d-flex justify-content-center align-items-center flex-column" style="height: 100vh;">
+      <h1 class="text-center text-light">Pusat Informasi</h1>
+      <h3 class="text-center text-light">Cari informasi terbaru seputar OSIM MAS MUALLIMIN UNIVA pada halaman ini.</h3>
     </div>
   </div>
 </div>
-
 
 
 
@@ -155,9 +152,10 @@ $(document).ready(function(){
     <h3>Contact Us</h3>
         <p>Instagram : @Osim_aliyahmuallimin</p>
         <p style="margin-left: 40px;">@aliyahmuallimin</p>
-        <p>Jl. Willem Iskandar No. 7 B Medan-Sumatera Utara, Indonesia</p>
-        <h6>Managed by KoorBid IT OSIM MAN 1 Medan</h6>
+        <p>Jl. Sisingamangaraja No.Km. 5, RW.5, Harjosari I, Kec. Medan Amplas, Kota Medan, Sumatera Utara 20147</p>
+        <h6>Managed by KoorBid Humas OSIM MAS MUALLIMIN UNIVA MEDAN</h6>
         
+
 
     </div>
     <p class="mt-5">©2024 Copyright</p>

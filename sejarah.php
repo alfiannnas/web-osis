@@ -11,7 +11,7 @@ $school = "assets/img/school.svg";
 ?>
 <?php
 // Koneksi ke database
-$koneksi = mysqli_connect("localhost", "root", "", "db_osis");
+$koneksi = mysqli_connect("localhost", "resq1481_osis", "kodokjakarta123@", "resq1481_osis");
 
 // Cek koneksi
 if (mysqli_connect_errno()) {
@@ -32,6 +32,7 @@ $result = mysqli_query($koneksi, $query);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>OSIM MAS MUALLIMAN</title>
     <link rel="stylesheet" href="style.css" />
+    <?php include './styles.php'; ?>
     <link rel="icon" href="<?php echo $school ?>">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <!-- Include Poppins font -->
@@ -40,7 +41,7 @@ $result = mysqli_query($koneksi, $query);
   <nav class="navbar navbar-expand-lg bg-primary">
   <div class="container-fluid" style="width: 1500px;">
     <!-- Logo di sebelah kiri -->
-    <a href="home.php" class="navbar-brand text-light">
+    <a href="index.php" class="navbar-brand text-light">
       <h5>
         <img src="<?php echo $logoBrand?>" alt="OSIM MAS MUALLIMIN Logo" height="auto" width="80vw" class="d-inline-block align-center">  
         OSIM MAS MUALLIMIN
@@ -81,12 +82,17 @@ $result = mysqli_query($koneksi, $query);
 </nav>
 
     
-    <div class="content" id="hero" style="background-image: url('<?php echo $gambarBg; ?>'); height: 700px">
-
+<div id="hero3" class="hero-container">
+  <div class="container">
+    <div class="hero-content">
+      <div class="d-flex justify-content-center align-items-center flex-column" style="height: 100vh;">
+             </div>
+    </div>
+  </div>
 </div>
-<img src="<?php echo $gambarBiru ?>" class="img-fluid judul-ok1" alt="Responsive Image" style="width: 2200px">
+<img src="<?php echo $gambarBiru ?>" class="img-fluid judul-ok1" alt="Responsive Image" style="width: 2200px; margin-top: -190px">
   <div class="judul-ok d-flex justify-content-center">
-        <h2>OSIM MAN 1 MEDAN dari tahun ke tahun</h2>
+        <h2>OSIM MAS MUALLIMIN UNIVA MEDAN dari tahun ke tahun</h2>
 
             </div>
             <div class="teks1">
@@ -107,7 +113,7 @@ $result = mysqli_query($koneksi, $query);
         <img src="<?php echo $gambarOke ?>" class="card-img-top h-100" alt="Logo Dakwah">
         
     </div>
-    <h5 class="card-title card-margin">Masa Kepengurusan 2022/2024</h5>
+    <h5 class="card-title card-margin">Masa Kepengurusan 2022/2023</h5>
 </div>
     <div class="col-md-4">
     <!-- Card 2 -->
@@ -138,8 +144,8 @@ $result = mysqli_query($koneksi, $query);
     <h3>Contact Us</h3>
         <p>Instagram : @Osim_aliyahmuallimin</p>
         <p style="margin-left: 40px;">@aliyahmuallimin</p>
-        <p>Jl. Willem Iskandar No. 7 B Medan-Sumatera Utara, Indonesia</p>
-        <h6>Managed by KoorBid IT OSIM MAN 1 Medan</h6>
+        <p>Jl. Sisingamangaraja No.Km. 5, RW.5, Harjosari I, Kec. Medan Amplas, Kota Medan, Sumatera Utara 20147</p>
+        <h6>Managed by KoorBid Humas OSIM MAS MUALLIMIN UNIVA MEDAN</h6>
         
 
     </div>

@@ -49,7 +49,9 @@ if (!isset($_SESSION['username'])) {
         </div>
         <ul class="list-unstyled components text-secondary">
           <li>
-            <a href="userhome.php"><i class="fas fa-home"></i> Home</a>
+              <a href="admin.php"><i class="fas fa-home"></i> Home</a>
+            <a href="pesanadmin.php"><i class="fas fa-inbox"></i></i> Pesan Aspirasi</a>
+
           </li>
         </ul>
       </nav>
@@ -106,7 +108,7 @@ if (!isset($_SESSION['username'])) {
         <tbody>
         <?php
 // Mengambil data dari database dan menampilkan dalam tabel
-$koneksi = mysqli_connect("localhost", "root", "", "db_osis");
+$koneksi = mysqli_connect("localhost", "resq1481_osis", "kodokjakarta123@", "resq1481_osis");
 $sql = "SELECT * FROM tb_images";
 $result = mysqli_query($koneksi, $sql);
 if (mysqli_num_rows($result) > 0) {

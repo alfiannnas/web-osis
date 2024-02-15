@@ -1,9 +1,9 @@
 <?php
 
 $host="localhost";
-$user="root";
-$password="";
-$db="db_osis";
+$user="resq1481_osis";
+$password="kodokjakarta123@";
+$db="resq1481_osis";
 
 session_start();
 
@@ -194,7 +194,6 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
   </head>
   <body class="bg-image-login">
     <div class="position-logo" id="bg">
-      <img src="img/LOGO KARTA YP.png" alt="Sikap!" width="125" />
     </div>
     <div class="radius">
       <div class="container-judul mb-5" style="max-width: 900px">

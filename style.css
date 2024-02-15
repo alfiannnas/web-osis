@@ -66,20 +66,22 @@
   text-align: center;
   color: black;
 }
+
+.testing2 {
+  margin-top: 370px;
+}
 /* style.css */
 
-.kenalan {
+.hero-content {
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-top: 200px;
-  height: 100%; /* Ensure it takes the full height of the parent */
 }
-
 .kenalan button {
   background-color: #3190ff;
   color: white;
-  padding: 10px 55px 10px 55px; /* Adjust padding as needed */
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px 50px 10px 50px; /* Adjust padding as needed */
   border: none;
   border-radius: 50px; /* Add rounded corners */
   /* Add transition for smooth hover effect */
@@ -142,9 +144,24 @@
   max-width: 500px; /* Mengatur lebar maksimum card */
 }
 
-/* Style for hover state */
-
 @media (max-width: 768px) {
+  .testing2 {
+    margin-top: 25px;
+  }
+  .kenalan button {
+    background-color: #3190ff;
+    color: white;
+    font-size: 16px;
+    font-weight: medium;
+    padding: 5px 15px 5px 15px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 50px; /* Add rounded corners */
+    /* Add transition for smooth hover effect */
+  }
+
+  .kenalan button:hover {
+    background-color: #266fc1; /* Change color on hover */
+  }
   .judul-ok1 {
     margin-top: 100px;
   }

@@ -57,7 +57,7 @@ $school = "assets/img/school.svg";
 ?>
 <?php
 // Koneksi ke database
-$koneksi = mysqli_connect("localhost", "root", "", "db_osis");
+$koneksi = mysqli_connect("localhost", "resq1481_osis", "kodokjakarta123@", "resq1481_osis");
 
 // Cek koneksi
 if (mysqli_connect_errno()) {
@@ -86,7 +86,7 @@ $result = mysqli_query($koneksi, $query);
   <nav class="navbar navbar-expand-lg bg-primary">
   <div class="container-fluid" style="width: 1500px;">
     <!-- Logo di sebelah kiri -->
-    <a href="home.php" class="navbar-brand text-light">
+    <a href="index.php" class="navbar-brand text-light">
       <h5>
         <img src="<?php echo $logoBrand?>" alt="OSIM MAS MUALLIMIN Logo" height="auto" width="80vw" class="d-inline-block align-center">  
         OSIM MAS MUALLIMIN
@@ -202,7 +202,7 @@ $result = mysqli_query($koneksi, $query);
     <div class="col-md-4">
       <div class="text-center">
         <img src="<?php echo $a24;?>" alt="Foto" class="rounded-circle img-fluid" style="width: 300px; height: 300px; object-fit: cover;">
-        <h4 class="mt-3">Ade Irma Suriani Siregar S</h4>
+        <h4 class="mt-3">Ade Irma Suriani Siregar</h4>
         <p style="margin-top: -10px;">Bendahara Osim Mas Muallimin</p>
       </div>
     </div>
@@ -266,7 +266,7 @@ $result = mysqli_query($koneksi, $query);
     <div class="col-md-4">
       <div class="text-center">
         <img src="<?php echo $a31;?>" alt="Foto" class="rounded-circle img-fluid" style="width: 300px; height: 300px; object-fit: cover;">
-        <h4 class="mt-3">Fahmi Rasyid Siddqi</h4>
+        <h4 class="mt-3">Fahmi Rasyid Siddiq</h4>
         <p style="margin-top: -10px;">Bidang Humas</p>
       </div>
     </div>
@@ -495,8 +495,8 @@ $result = mysqli_query($koneksi, $query);
     <h3>Contact Us</h3>
         <p>Instagram : @Osim_aliyahmuallimin</p>
         <p style="margin-left: 40px;">@aliyahmuallimin</p>
-        <p>Jl. Willem Iskandar No. 7 B Medan-Sumatera Utara, Indonesia</p>
-        <h6>Managed by KoorBid IT OSIM MAN 1 Medan</h6>
+        <p>Jl. Sisingamangaraja No.Km. 5, RW.5, Harjosari I, Kec. Medan Amplas, Kota Medan, Sumatera Utara 20147</p>
+        <h6>Managed by KoorBid Humas OSIM MAS MUALLIMIN UNIVA MEDAN</h6>
         
 
 </footer>

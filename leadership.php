@@ -21,7 +21,7 @@ $school = "assets/img/school.svg";
 ?>
 <?php
 // Koneksi ke database
-$koneksi = mysqli_connect("localhost", "root", "", "db_osis");
+$koneksi = mysqli_connect("localhost", "resq1481_osis", "kodokjakarta123@", "resq1481_osis");
 
 include './styles.php';
 // Cek koneksi
@@ -51,7 +51,7 @@ $result = mysqli_query($koneksi, $query);
   <nav class="navbar navbar-expand-lg bg-primary">
   <div class="container-fluid" style="width: 1500px;">
     <!-- Logo di sebelah kiri -->
-    <a href="home.php" class="navbar-brand text-light">
+    <a href="index.php" class="navbar-brand text-light">
       <h5>
         <img src="<?php echo $logoBrand?>" alt="OSIM MAS MUALLIMIN Logo" height="auto" width="80vw" class="d-inline-block align-center">  
         OSIM MAS MUALLIMIN
@@ -92,7 +92,7 @@ $result = mysqli_query($koneksi, $query);
 </nav>
 <div class="container-fluid">
     <div class="d-flex justify-content-center">
-        <h4 class="mt-5">Bidang Keagamaan</h4>
+        <h4 class="mt-5">Bidang Leadership</h4>
     </div>
 </div>
   <div class="container-fluid">
@@ -134,8 +134,8 @@ $result = mysqli_query($koneksi, $query);
     <h3>Contact Us</h3>
         <p>Instagram : @Osim_aliyahmuallimin</p>
         <p style="margin-left: 40px;">@aliyahmuallimin</p>
-        <p>Jl. Willem Iskandar No. 7 B Medan-Sumatera Utara, Indonesia</p>
-        <h6>Managed by KoorBid IT OSIM MAN 1 Medan</h6>
+        <p>Jl. Sisingamangaraja No.Km. 5, RW.5, Harjosari I, Kec. Medan Amplas, Kota Medan, Sumatera Utara 20147</p>
+        <h6>Managed by KoorBid Humas OSIM MAS MUALLIMIN UNIVA MEDAN</h6>
         
 
 
